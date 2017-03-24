@@ -142,7 +142,7 @@ public class AddressbookUI extends UI {
      * application.
      */
     @WebServlet(urlPatterns = "/*")
-    @VaadinServletConfiguration(ui = AddressbookUI.class, productionMode = false)
+    @VaadinServletConfiguration(ui = AddressbookUI.class, productionMode = true)
     public static class MyUIServlet extends VaadinServlet {
     }
 
